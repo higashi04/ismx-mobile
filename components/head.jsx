@@ -1,6 +1,8 @@
 import { StyleSheet, Text } from 'react-native';
+import React from 'react';
 
-export default function Title() {
+
+const Title = () => {
     return(
         <Text style={styles.h1}>InstantSolutionsMx</Text>
     );
@@ -9,6 +11,9 @@ export default function Title() {
 const styles = StyleSheet.create({
     h1: {
         backgroundColor: 'magenta',
-        fontSize: 45
+        fontSize: 45,
+        marginHorizontal: 20
     }
 })
+
+export default Title
