@@ -130,6 +130,7 @@ const Register = () => {
                     />
                 )}
             </View>
+            
 
             </KeyboardAvoidingView>
         </ScrollView>
